@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EventManagement
+</name>
+</assembly>
+<members>
+<member name="M:EventManagement.ClassUser.Save(System.String)">
+	<summary>
+ Save Value From Form UserAdd
+ </summary>
+	<param name="mGUID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EventManagement.EmailModule.SendEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.String@,System.String,System.String,System.Int32,System.Boolean)">
+	<summary>
+ send email function
+ </summary>
+	<param name="_mFrom">Sender email address</param>
+	<param name="_mSubject">Subject of email</param>
+	<param name="_mBody">Body of email</param>
+	<param name="_mSMTPServerName">SMTP server name / ip</param>
+	<param name="_mTo">Receive email address</param>
+	<param name="_mBCC">BCC email address</param>
+	<param name="mError">Error return back variable (return)</param>
+	<param name="mAuthenticalUser">user to connect to smtpserver</param>
+	<param name="mAuthenticalPwd">user's password to connect to smtpserver</param>
+	<param name="mAuthenticalPort">port(default = 25,smtp.gmail.com = 587)</param>
+	<param name="mUseSSLYN">use SSL ?</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EventManagement.EmailModule.SentMailAttachFile(System.String,System.String,System.String,System.String,System.String,System.String,System.String[],System.String,System.String@,System.String,System.String,System.Int32,System.Boolean)">
+	<summary>
+ send email function
+ </summary>
+	<param name="_mFrom">Sender email address</param>
+	<param name="_mSubject">Subject of email</param>
+	<param name="_mBody">Body of email</param>
+	<param name="_mSMTPServerName">SMTP server name / ip</param>
+	<param name="_mTo">Receive email address</param>
+	<param name="_mBCC">BCC email address</param>
+	<param name="mError">Error return back variable (return)</param>
+	<param name="mAuthenticalUser">user to connect to smtpserver</param>
+	<param name="mAuthenticalPwd">user's password to connect to smtpserver</param>
+	<param name="mAuthenticalPort">port(default = 25,smtp.gmail.com = 587)</param>
+	<param name="mUseSSLYN">use SSL ?</param>
+	<param name="file_path">array of filename fullpath</param>
+	<param name="target_path">path of attachment directory </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:EventManagement.GModule.Main">
+	<summary>
+ Start
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EventManagement.GModule.WriteLog(System.String[])">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:EventManagement.FuncModule.UConvertString2Date(System.String)">
+	<summary>
+ DateString format yyyymmdd
+ return dd/mm/yyyy
+ </summary>
+	<param name="DateString"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EventManagement.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EventManagement.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EventManagement.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
